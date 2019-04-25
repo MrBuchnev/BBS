@@ -1,0 +1,19 @@
+.welcome {
+    height: 500px;
+    background-color: $color-blue-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__heading {
+        &--primary {
+            color: $color-black;
+            text-transform: uppercase;
+        }
+
+        &--secondary {
+            color: $color-gray;
+        }
+    }
+}
